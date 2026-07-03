@@ -1,0 +1,31 @@
+{
+  "name": "iraq-babylon-minecraft",
+  "version": "1.0.0",
+  "description": "بوت متكامل يربط سيرفر Minecraft مع Discord - Iraq Babylon SMP",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "deploy-commands": "node handlers/deployCommands.js"
+  },
+  "keywords": [
+    "minecraft",
+    "mineflayer",
+    "discord",
+    "bot",
+    "iraq-babylon"
+  ],
+  "author": "Iraq Babylon SMP",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "mineflayer": "^4.37.1",
+    "mineflayer-pathfinder": "^2.4.5",
+    "minecraft-server-util": "^5.4.4",
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
